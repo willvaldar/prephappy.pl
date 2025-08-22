@@ -9,7 +9,7 @@
 [<a href="#Options">Options</a>]
 
 <h2 id="Intro">What it does</h2>
-Prephappy is a tool to help prepare input files for the haplotype reconstruction program <a href="http://www.well.ox.ac.uk/happy/">HAPPY</a>. It is a Perl program invoked on the command line. Given a set of <a href="happyallelesformat.html">alleles files</a> and corresponding ped files (eg, chr1.alleles, chr2.alleles, chr1.ped, chr2.ped), it will:
+Prephappy is a tool to help prepare input files for the haplotype reconstruction program <a href="http://www.well.ox.ac.uk/happy/">HAPPY</a>. It is a Perl program invoked on the command line. Given a set of <a href="allelesformat.md">alleles files</a> and corresponding ped files (eg, chr1.alleles, chr2.alleles, chr1.ped, chr2.ped), it will:
 <ul>
 	<li>Check the number of markers in the ped and alleles files match.
 	<li>Check all individuals have the same number of markers.
