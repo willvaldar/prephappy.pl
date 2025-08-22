@@ -112,5 +112,3 @@ prephappy --alleles=chr1.alleles,chr2.alleles --ped=chr1.ped,chr2.ped
 		                  		or the name of a file containing a whitespace-separated list
 </dl>
 
-
-</body>
