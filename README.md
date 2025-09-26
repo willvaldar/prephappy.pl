@@ -77,12 +77,12 @@ prephappy --alleles=chr1.alleles,chr2.alleles --ped=chr1.ped,chr2.ped
 
 <dl>
 	<dt>--add_noise_prob</dt>
-	<dd>A model of genotyping error. Specifies the probability $theta$ that at each 
+	<dd>A model of genotyping error. Specifies the probability theta that at each 
        locus the allele call is a random draw from the set of available allele 
        types rather than from p(allele|founder). This models genotyping error such 
        that in a population of equiprobable founders with biallelic genotypes, the 
-       rate of miscalled genotypes is approximately $theta$ (in fact, $theta$ -
-       1/4*$theta$^2). If founders are not equiprobable, then requires</dd>
+       rate of miscalled genotypes is approximately $theta$ (in fact, theta -
+       1/4*theta^2). If founders are not equiprobable, then requires</dd>
 		
 	<dt>--founder_probs</dt>
 	<dd>Optionally specify prior founder probabilities as comma-separated list.
