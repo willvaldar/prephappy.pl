@@ -76,39 +76,39 @@ prephappy --alleles=chr1.alleles,chr2.alleles --ped=chr1.ped,chr2.ped
 <h2 id="Options">Options</h2>
 
 <dl>
-	<dt>--add_noise_prob
+	<dt>--add_noise_prob</dt>
 	<dd>A model of genotyping error. Specifies the probability $theta$ that at each 
        locus the allele call is a random draw from the set of available allele 
        types rather than from p(allele|founder). This models genotyping error such 
        that in a population of equiprobable founders with biallelic genotypes, the 
-       rate of miscalled genotypes is approximately $theta$ (in fact, $theta$ -  
-       1/4*$theta$^2). If founders are not equiprobable, then requires
+       rate of miscalled genotypes is approximately $theta$ (in fact, $theta$ -
+       1/4*$theta$^2). If founders are not equiprobable, then requires</dd>
 		
-	<dt>--founder_probs
+	<dt>--founder_probs</dt>
 	<dd>Optionally specify prior founder probabilities as comma-separated list.
         Only relevant for some options (eg, --add_noise_prob). Default is
-        equiprobable founders.
+        equiprobable founders.</dd>
 		
-	<dt>--alleles
-	<dd>Alleles files specified as comma-separated list or/and file patterns (see examples)
+	<dt>--alleles</dt>
+	<dd>Alleles files specified as comma-separated list or/and file patterns (see examples)</dd>
 	
-	<dt>--map
-	<dd>Specifies one or more map files to be included in the checking process. The files should be white space delimited (eg, tab delimited) and have columns under the headings "marker", "chr", "bp", as well as any other columns.
+	<dt>--map</dt>
+	<dd>Specifies one or more map files to be included in the checking process. The files should be white space delimited (eg, tab delimited) and have columns under the headings "marker", "chr", "bp", as well as any other columns.</dd>
 
-	<dt>--mapfile_cM_column
-	<dd>Specify column in mapfile corresponding to centiMorgan position and use those cM positions in place of those in the alleles file(s).
+	<dt>--mapfile_cM_column</dt>
+	<dd>Specify column in mapfile corresponding to centiMorgan position and use those cM positions in place of those in the alleles file(s).</dd>
 	
-	<dt>--mismatches2na=1
-	<dd>Warns of inconsistent alleles, replacing them with NAs
+	<dt>--mismatches2na=1</dt>
+	<dd>Warns of inconsistent alleles, replacing them with NAs</dd>
 	
-	<dt>--padsubjects=1
-	<dd>Sets missing genotypes for missing subjects as NA
+	<dt>--padsubjects=1</dt>
+	<dd>Sets missing genotypes for missing subjects as NA</dd>
 	
-	<dt>--ped_delimiter
-	<dd>Specifies what separates columns in the ped file, eg, '\s', '\t'
+	<dt>--ped_delimiter</dt>
+	<dd>Specifies what separates columns in the ped file, eg, '\s', '\t'</dd>
 	
-	<dt>--skipmarkers
+	<dt>--skipmarkers</dt>
 	<dd>Skips markers as specified by a comma-separated list (eg, 'rs314321,rs489233')
-		                  		or the name of a file containing a whitespace-separated list
+		                  		or the name of a file containing a whitespace-separated list</dd>
 </dl>
 
