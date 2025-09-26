@@ -81,7 +81,7 @@ prephappy --alleles=chr1.alleles,chr2.alleles --ped=chr1.ped,chr2.ped
        locus the allele call is a random draw from the set of available allele 
        types rather than from p(allele|founder). This models genotyping error such 
        that in a population of equiprobable founders with biallelic genotypes, the 
-       rate of miscalled genotypes is approximately $theta$ (in fact, theta -
+       rate of miscalled genotypes is approximately theta (in fact, theta -
        1/4*theta^2). If founders are not equiprobable, then requires</dd>
 		
 	<dt>--founder_probs</dt>
