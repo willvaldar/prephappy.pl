@@ -50,7 +50,7 @@ Small print: Prephappy does not aspire to be interesting, merely useful. That sa
 <h2 id="Installation">How to install it</h2>
 These instructions assume you are installing Prephappy on Linux or Darwin/MacOSX, already have installed a working installation of Perl v5.10.0 or higher, and assumes you are familiar with the UNIX command line or in a position to ask favors from someone who is. It <em>may</em> be possible to run Prephappy on Windows or other operating systems but the author has not had occasion to try this.
 <ol type=1>
-	<li>Download the latest prephappy.tgz file from <a href="software/prephappy/distrib/prephappy_2013-02-26.tar.gz">here</a> and put it in a directory you'd like to run it from <i>dir</i>.</li>
+	<li>Download prephappy.pl and put it in a directory you'd like to run it from <i>dir</i>.</li>
 	<li>Open a UNIX shell and go to <i>dir</i>.</li>
 	<li>Unzip and unarchive by typing <code>tar -zxf prephappy.tgz</code></li>
 	<li>Set an environmental variable <code>PREPHAPPY_LIBS</code> to <code><i>dir</i>/prephappy/libs/</code>. For example, in your .bash_profile add the line <code>export PREPHAPPY_LIBS=<i>dir</i>/prephappy/libs/</code>.</li>
